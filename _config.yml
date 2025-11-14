@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "datoutie.jpg"
+  avatar           : "datoutie.png"
   name             : "郭赵菁"
   pronouns         : # example: "she/her"  
   bio              : "成长中的小小医学博"
