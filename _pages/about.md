@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. student in Internal Medicine(Nephrology) at the [Peking university first hospital](https://www.pkufh.com/). I am fortunate to be advised by [Prof. zhangluxia]. My research interests include AI for Prevention and treatment of chronic kidney disease, exploration of markers for the transition from acute kidney injury to chronic kidney disease.
+I am a first-year Ph.D. student in Internal Medicine(Nephrology) at the [Peking university first hospital](https://www.pkufh.com/). I am fortunate to be advised by [Prof. Zhangluxia]. My research interests include AI for Prevention and treatment of chronic kidney disease, exploration of markers for the transition from acute kidney injury to chronic kidney disease.
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+You can find my CV here: [Guozhaojing's Curriculum Vitae](https://github.com/GuoZJ277/GuoZJ277.github.io/blob/master/assets/Curriculum_Vitae.pdf)).
 
-[Email](mailto:xxx@stu.pku.edu.cn) / [Github](https://github.com/xxx) / [Wechat](../images/wechat.jpg) 
+[Email](mailto:guozhaojing25@stu.pku.edu.cn) / [Github](https://github.com/GuoZJ277) 
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
