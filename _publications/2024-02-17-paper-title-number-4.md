@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 4"
+title: "The role of AGEs in muscle ageing and sarcopenia"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /Bone & Joint Research/Volume 14, No. 3 March 2025
 excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+date: 2025-03
+venue: 'Bone & Joint Research'
+paperurl: 'https://boneandjoint.org.uk/article/10.1302/2046-3758.143.BJR-2024-0252.R1'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
