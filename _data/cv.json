@@ -34,28 +34,19 @@
   "education": [
     {
       "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "area": "Ph.D in Internal Medicine(Nephrology)",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2030",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Central South University",
+      "area": "M.B. in Clinical Medicine",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2025",
       "gpa": null,
       "courses": []
     }
@@ -121,22 +112,6 @@
       "event": "Testing Institute of America 2014 Annual Conference",
       "date": "2014-03-01",
       "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
       "description": ""
     }
   ],
