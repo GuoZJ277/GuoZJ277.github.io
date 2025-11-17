@@ -2,7 +2,7 @@
 title: "The role of AGEs in muscle ageing and sarcopenia"
 collection: publications
 category: conferences
-permalink: [/Bone & Joint Research/Volume 14, No. 3 March 2025](https://pubmed.ncbi.nlm.nih.gov/40036085/)
+permalink: https://pubmed.ncbi.nlm.nih.gov/40036085/
 excerpt: 'This paper reviews the recent researches and novel discoveries about the role of AGEs in muscle ageing and sarcopenia.'
 date: 2025-03
 venue: 'Bone & Joint Research'
