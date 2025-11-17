@@ -2,7 +2,7 @@
 title: "The top 100 most-cited articles on exercise therapy for sarcopenia: A bibliometric analysis"
 collection: publications
 category: manuscripts
-permalink: /publication/2022-08-12-article-The top 100 most-cited articles on exercise therapy for sarcopenia: A bibliometric analysis
+permalink: /publication/2022-08-12-article-The top 100 most-cited articles on exercise therapy for sarcopenia A bibliometric analysis
 excerpt: 'This study determined the top 100 most-cited articles on exercise therapy for sarcopenia and analyzed their bibliometric characteristics, which may provide a recommended list for researchers in this field and pave the way for further research.'
 date: 2022-08-12
 venue: 'Frontiers in Medicine'
