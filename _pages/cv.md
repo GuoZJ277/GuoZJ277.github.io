@@ -14,31 +14,24 @@ Education
 * Ph.D in Internal Medicine(Nephrology), Peking University First Hospital, 2030 (expected)
 * M.B. in Clinical Medicine, Central South University, 2025
 
-Work experience
+Internship experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2024: Changsha Central Hospital
+  * Xiangya School of Medicine, Central South University
+  * Duties included: Internal Medicine Internship
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Spring 2025: The Third Xiangya Hospital
+  * Xiangya School of Medicine, Central South University
+  * Duties included: Surgical Internship
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Sports
+  * Badminton
+  * Dancing
+* Calligraphy
+* Python
+* WPS
 
 Publications
 ======
