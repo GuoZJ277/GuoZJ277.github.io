@@ -4,7 +4,7 @@ excerpt: "使用Matplotlib进行探索性数据分析，并通过ROC曲线、PR�
 collection: portfolio
 date: 2026-01-17
 tags: ["预测模型", "随机森林", "医疗数据分析"]
-tech_stack:[name:Python,name:Matplotlib,name:Scikit-learn]
+
 ---
 
 ## 项目背景
@@ -32,6 +32,22 @@ preprocessor = ColumnTransformer(
     ])
 
 
+### 2. 模型训练
+# 随机森林模型构建
+rf_pipeline = Pipeline(steps=[
+    ('preprocessor', preprocessor),
+    ('classifier', RandomForestClassifier(
+        n_estimators=100, 
+        max_depth=10, 
+        random_state=42, 
+        class_weight='balanced'
+    ))
+])
+
+# 训练与评估
+rf_pipeline.fit(X_train, y_train)
+y_pred = rf_pipeline.predict(X_test)
+y_prob = rf_pipeline.predict_proba(X_test)[:,1]
 ---
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
