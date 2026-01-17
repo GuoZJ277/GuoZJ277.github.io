@@ -55,7 +55,7 @@ y_prob = rf_pipeline.predict_proba(X_test)[:,1]
 ### 3. 模型评估结果
 
 # 混淆矩阵分析
-![混淆矩阵](/image/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5.png)
+![混淆矩阵](/images/confusion_matrix.png)
 
 > **结论：** 模型对存活患者预测准确率较高，但对死亡患者存在一定漏诊。
 
