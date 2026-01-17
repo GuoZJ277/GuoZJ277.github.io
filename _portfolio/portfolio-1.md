@@ -46,4 +46,10 @@ rf_pipeline = Pipeline(steps=[
     ))
 ])
 
+# 训练与评估
+rf_pipeline.fit(X_train, y_train)
+y_pred = rf_pipeline.predict(X_test)
+y_prob = rf_pipeline.predict_proba(X_test)[:,1]
+
+
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
