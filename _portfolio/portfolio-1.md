@@ -4,10 +4,7 @@ excerpt: "使用Matplotlib进行探索性数据分析，并通过ROC曲线、PR�
 collection: portfolio
 date: 2026-01-17
 tags: ["预测模型", "随机森林", "医疗数据分析"]
-tech_stack:
-name:Python
-name:Matplotlib
-name:Scikit-learn
+tech_stack:[name:Python,name:Matplotlib,name:Scikit-learn]
 ---
 
 ## 项目背景
