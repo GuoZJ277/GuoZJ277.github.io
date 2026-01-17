@@ -65,21 +65,21 @@ y_prob = rf_pipeline.predict_proba(X_test)[:,1]
 
 | ROC 曲线 | Precision-Recall 曲线 |
 | :---: | :---: |
-| ![ROC Curve](/image/ROC_curve.png) | ![PR Curve](/image/PR_curve.png) |
+| ![ROC Curve](/images/ROC_curve.png) | ![PR Curve](/images/PR_curve.png) |
 
 > **评估指标：** 模型 AUC 达到 **0.80**。
 
 ---
 
 # 特征重要性 (SHAP 可视化)
-![SHAP Summary Plot](/image/shap_summary_plot.png)
+![SHAP Summary Plot](/images/shap_summary_plot.png)
 
 > **核心发现：** **MS（代谢综合征）** 是模型预测的最关键特征。
 
 ---
 
 # 数据分布一致性检查
-![训练集-验证集对比](/image/%E8%AE%AD%E7%BB%83%E9%9B%86-%E9%AA%8C%E8%AF%81%E9%9B%86%E5%9F%BA%E7%BA%BF%E7%89%B9%E5%BE%81%E5%AF%B9%E6%AF%94.png)
+![训练集-验证集对比](/images/%E8%AE%AD%E7%BB%83%E9%9B%86-%E9%AA%8C%E8%AF%81%E9%9B%86%E5%9F%BA%E7%BA%BF%E7%89%B9%E5%BE%81%E5%AF%B9%E6%AF%94.png)
 
 > **数据质量：** 训练集与测试集特征分布基本一致。
 
