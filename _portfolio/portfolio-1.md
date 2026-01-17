@@ -12,15 +12,15 @@ tags: ["预测模型", "随机森林", "医疗数据分析"]
 
 ## 核心实现
 ### 1. 数据预处理流水线
-```python
+
 # 数值特征：中位数填补
 numeric_transformer = Pipeline(steps=[
-    ('imputer', SimpleImuter(strategy='median'))
+    ('imputer', SimpleImputer(strategy='median'))
 ])
 
 # 类别特征：众数填补+One-Hot编码
 categorical_transformer = Pipeline(steps=[
-    ('imputer', SimpleImuter(strategy='most_frequent')),
+    ('imputer', SimpleImputer(strategy='most_frequent')),
     ('onehot', OneHotEncoder(handle_unknown='ignore'))
 ])
 
@@ -31,22 +31,19 @@ preprocessor = ColumnTransformer(
         ('cat', categorical_transformer, categorical_features)
     ])
 
+---
+
 ### 2. 模型训练
+
 # 随机森林模型构建
 rf_pipeline = Pipeline(steps=[
     ('preprocessor', preprocessor),
     ('classifier', RandomForestClassifier(
-        n_estimators=100, 
-        max_depth=10, 
-        random_state=42, 
+        n_estimators=100,
+        max_depth=10,
+        random_state=42,
         class_weight='balanced'
     ))
 ])
-
-# 训练与评估
-rf_pipeline.fit(X_train, y_train)
-y_pred = rf_pipeline.predict(X_test)
-y_prob = rf_pipeline.predict_proba(X_test)[:,1]
-
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
