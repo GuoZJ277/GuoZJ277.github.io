@@ -57,7 +57,7 @@ y_prob = rf_pipeline.predict_proba(X_test)[:,1]
 # 混淆矩阵分析
 ![Confusion Matrix](/images/confusion_matrix.png)
 
-> **结论：** 模型对存活患者预测准确率较高，但对死亡患者存在一定漏诊。
+> **结论：** 模型对负样本（未发生共病）患者预测准确率较高，但对正样本（发生共病）患者存在一定漏诊。
 
 ---
 
@@ -74,7 +74,7 @@ y_prob = rf_pipeline.predict_proba(X_test)[:,1]
 # 特征重要性 (SHAP 可视化)
 ![SHAP Summary Plot](/images/shap_summary_plot.png)
 
-> **核心发现：** **MS（代谢综合征）** 是模型预测的最关键特征。
+> **核心发现：** **MS（基线代谢综合征）** 是模型预测的最关键特征。
 
 ---
 
