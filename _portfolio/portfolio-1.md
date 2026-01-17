@@ -55,7 +55,7 @@ y_prob = rf_pipeline.predict_proba(X_test)[:,1]
 ### 3. 模型评估结果
 
 # 混淆矩阵分析
-![混淆矩阵](/image/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5.png)
+![混淆矩阵](./image/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5.png)
 
 > **结论：** 模型对存活患者预测准确率较高，但对死亡患者存在一定漏诊。
 
@@ -65,14 +65,14 @@ y_prob = rf_pipeline.predict_proba(X_test)[:,1]
 
 | ROC 曲线 | Precision-Recall 曲线 |
 | :---: | :---: |
-| ![ROC Curve](/image/ROC_curve.png) | ![PR Curve](/image/PR_curve.png) |
+| ![ROC Curve](./image/ROC_curve.png) | ![PR Curve](./image/PR_curve.png) |
 
 > **评估指标：** 模型 AUC 达到 **0.80**。
 
 ---
 
 # 特征重要性 (SHAP 可视化)
-![SHAP Summary Plot](/image/shap_summary_plot.png)
+![SHAP Summary Plot](./image/shap_summary_plot.png)
 
 > **核心发现：** **MS（代谢综合征）** 是模型预测的最关键特征。
 
